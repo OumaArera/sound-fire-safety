@@ -7,6 +7,7 @@ import { Reveal } from '@/components/ui/Reveal';
 import { Button } from '@/components/ui/Button';
 import { IndustriesGrid } from '@/components/sections/IndustriesGrid';
 import { CtaBand } from '@/components/sections/CtaBand';
+import { EquipmentGallery } from '@/components/sections/EquipmentGallery';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { services, servicesIntro } from '@/data/services';
 import { useSeo } from '@/lib/useSeo';
@@ -118,6 +119,14 @@ export default function Services() {
           </div>
         </Container>
       </section>
+
+      <EquipmentGallery
+        background="dark"
+        limit={8}
+        eyebrow="Our Range"
+        title="Every Class of Extinguisher, Properly Placed"
+        body="ABC, CO₂, Class K, vehicle, marine and specialty units — supplied, mounted, inspected and tagged by the same team."
+      />
 
       <section className="bg-navy-50/60 py-16 sm:py-20 lg:py-24">
         <Container size="wide">

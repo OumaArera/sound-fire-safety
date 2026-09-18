@@ -7,6 +7,7 @@ import { CoreValues } from '@/components/sections/CoreValues';
 import { ReasonsGrid } from '@/components/sections/ReasonsGrid';
 import { IndustriesGrid } from '@/components/sections/IndustriesGrid';
 import { CtaBand } from '@/components/sections/CtaBand';
+import { EquipmentGallery } from '@/components/sections/EquipmentGallery';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { LeadershipPreview } from '@/components/sections/LeadershipPreview';
 import { Container } from '@/components/ui/Container';
@@ -27,6 +28,13 @@ export default function Home() {
       <Hero />
       <TrustStrip />
       <ServicesSection />
+
+      <EquipmentGallery
+        background="dark"
+        limit={6}
+        cta={{ label: 'Buy Extinguishers', to: '/contact?subject=Buy%20Extinguishers' }}
+      />
+
       <AboutSection />
       <CoreValues />
 

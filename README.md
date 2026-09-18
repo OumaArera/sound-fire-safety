@@ -19,17 +19,19 @@ src/
   data/           All site copy and config — edit here, not in components
     site.ts       Company details, phone numbers, address, nav, credentials
     services.ts   The three services + industries served
+    gallery.ts    Equipment gallery photos and per-service photo sets
     company.ts    About, mission, vision, values, why-choose-us, leadership bios
   components/
     layout/       Header (top bar, nav, mobile drawer), Footer, Layout shell
     ui/           Container, Button, SectionHeading, PageHero, Reveal
     home/         Homepage-only sections (Hero, TrustStrip, Services, About)
     sections/     Sections reused across pages (CoreValues, ReasonsGrid,
-                  IndustriesGrid, FeatureSplit, CtaBand, ContactForm/Section,
-                  Credentials, LeadershipPreview)
+                  IndustriesGrid, EquipmentGallery, FeatureSplit, CtaBand,
+                  ContactForm/Section, Credentials, LeadershipPreview)
   pages/          One file per route
   lib/            cn() class helper, useSeo() per-route title/meta
 public/images/    Logo, leadership photos, stock photography
+  equipment/      Extinguisher gallery photos (src/data/gallery.ts)
   industries/     One photo per industry served
 ```
 

@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/Button';
 import { CtaBand } from '@/components/sections/CtaBand';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { getService, services } from '@/data/services';
+import { serviceGallery } from '@/data/gallery';
 import { contact, phones } from '@/data/site';
 import { useSeo } from '@/lib/useSeo';
 
@@ -22,6 +23,7 @@ export default function ServiceDetail() {
   if (!service) return <Navigate to="/services" replace />;
 
   const others = services.filter((item) => item.slug !== service.slug);
+  const gallery = serviceGallery[service.slug] ?? [];
   const Icon = service.icon;
 
   return (
@@ -60,6 +62,31 @@ export default function ServiceDetail() {
               </ul>
 
               <p className="mt-8 text-[15px] leading-relaxed text-navy-600">{service.closing}</p>
+
+              {gallery.length > 0 && (
+                <div className="mt-10 grid gap-4 sm:grid-cols-3">
+                  {gallery.map((item) => (
+                    <figure
+                      key={item.image}
+                      className="group relative overflow-hidden rounded-xl bg-navy-900 shadow-card"
+                    >
+                      <img
+                        src={item.image}
+                        alt={item.alt}
+                        className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        loading="lazy"
+                      />
+                      <span
+                        className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"
+                        aria-hidden="true"
+                      />
+                      <figcaption className="absolute inset-x-0 bottom-0 p-4 font-display text-[11px] font-extrabold uppercase tracking-wide text-white">
+                        {item.title}
+                      </figcaption>
+                    </figure>
+                  ))}
+                </div>
+              )}
 
               <div className="mt-9 flex flex-wrap gap-3">
                 <Button to={service.cta.href} size="lg">

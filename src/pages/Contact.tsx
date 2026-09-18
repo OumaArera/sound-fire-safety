@@ -1,6 +1,7 @@
 import { PageHero } from '@/components/ui/PageHero';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { CtaBand } from '@/components/sections/CtaBand';
+import { EquipmentGallery } from '@/components/sections/EquipmentGallery';
 import { contact } from '@/data/site';
 import { useSeo } from '@/lib/useSeo';
 
@@ -24,6 +25,14 @@ export default function Contact() {
         eyebrow="Get In Touch"
         heading="Send Us a Message"
         body="Fill in the form and a member of our team will get back to you with clear, honest guidance — no upselling, no hidden fees."
+      />
+
+      <EquipmentGallery
+        background="muted"
+        limit={3}
+        eyebrow="What We Supply"
+        title="Tell Us What You Need Protected"
+        body="Not sure which class of extinguisher your site requires? Send us the building type and we will spec it for you."
       />
 
       <CtaBand

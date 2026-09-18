@@ -7,6 +7,17 @@ import { coreValues } from '@/data/company';
 export function CoreValues() {
   return (
     <section className="relative overflow-hidden bg-navy-900 py-16 sm:py-20 lg:py-24">
+      <img
+        src="/images/firefighter-smoke.jpg"
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 size-full object-cover object-center opacity-25"
+        loading="lazy"
+      />
+      <div
+        className="absolute inset-0 bg-gradient-to-b from-navy-950/90 via-navy-900/85 to-navy-950/95"
+        aria-hidden="true"
+      />
       <BackgroundGrid />
       <div
         className="absolute left-1/2 top-0 h-64 w-[760px] -translate-x-1/2 rounded-full bg-flame-600/10 blur-[110px]"

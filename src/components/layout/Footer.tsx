@@ -135,11 +135,22 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-3 border-t border-navy-800 py-6 text-xs text-navy-400 sm:flex-row">
+        <div className="flex flex-col items-center gap-4 border-t border-navy-800 py-6 text-xs text-navy-400 sm:flex-row sm:justify-between">
           <p>
             © {year} {site.name}. All rights reserved.
           </p>
           <p className="font-semibold uppercase tracking-[0.18em] text-navy-300">{site.tagline}</p>
+          <p>
+            Built by{' '}
+            <a
+              href="https://zafrika.com"
+              target="_blank"
+              rel="noreferrer"
+              className="font-semibold text-navy-200 underline-offset-4 transition hover:text-flame-400 hover:underline"
+            >
+              Zafrika
+            </a>
+          </p>
         </div>
       </Container>
     </footer>

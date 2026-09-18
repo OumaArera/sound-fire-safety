@@ -15,10 +15,10 @@ export function CtaBand({
   return (
     <section className="relative overflow-hidden bg-flame-600">
       <img
-        src="/images/fire-training.jpg"
+        src="/images/firefighter-hose.jpg"
         alt=""
         aria-hidden="true"
-        className="absolute inset-0 size-full object-cover opacity-20 mix-blend-multiply"
+        className="absolute inset-0 size-full object-cover object-center opacity-30 mix-blend-multiply"
         loading="lazy"
       />
       <div
