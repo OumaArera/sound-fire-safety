@@ -32,11 +32,11 @@ export const phones: PhoneNumber[] = [
 
 export const contact = {
   address: {
-    street: '11400 Airport Rd, Suite 200',
+    street: '11400 Airport Rd, Suite 219',
     city: 'Everett',
     state: 'WA',
     zip: '98024',
-    full: '11400 Airport Rd, Suite 200, Everett, WA 98024',
+    full: '11400 Airport Rd, Suite 219, Everett, WA 98024',
     mapsUrl:
       'https://www.google.com/maps/search/?api=1&query=11400+Airport+Rd+Suite+200+Everett+WA+98024',
   },

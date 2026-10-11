@@ -163,7 +163,7 @@ export const leadership: Leader[] = [
     name: 'Abdoulie Lowe',
     role: 'Chief Executive Officer',
     initials: 'AL',
-    photo: '/images/team/abdoulie-lowe.jpeg',
+    photo: '/images/team/abdi.jpeg',
     bio: [
       'Abdoulie Lowe serves as the Chief Executive Officer of Sound Fire & Safety LLC, providing strategic leadership and operational oversight for the company’s fire-safety services across Washington State. As the founding principal, he guides the organization’s commitment to delivering reliable, code-compliant fire and life-safety solutions for residential, commercial, and industrial clients.',
       'With a strong background in multi-sector operations and regulatory compliance, Abdoulie ensures that Sound Fire & Safety maintains the highest standards of quality, professionalism, and customer protection. His leadership emphasizes integrity, precision, and consistent service excellence—values that shape the company’s culture and drive its mission.',
@@ -174,6 +174,7 @@ export const leadership: Leader[] = [
     name: 'Haddy Saho',
     role: 'Chief Operating Officer',
     initials: 'HS',
+    photo: '/images/team/haddy-saho.jpg',
     bio: [
       'Haddy Saho serves as the Chief Operating Officer of Sound Fire & Safety LLC, overseeing daily operations, service coordination, and quality assurance across all fire-safety projects. With a strong background in healthcare operations and regulatory compliance, she brings a disciplined, detail-oriented approach to managing the company’s service delivery and customer support systems.',
       'Haddy is known for her ability to blend operational precision with a strong commitment to safety and customer care. She ensures that all services meet Washington State fire-safety standards, supporting the company’s mission to provide reliable, code-compliant protection for homes, businesses, and facilities.',
@@ -181,15 +182,15 @@ export const leadership: Leader[] = [
     ],
   },
   {
-    name: 'Nixon Kwaku Duah Junior',
+    name: 'Kwaku Duah Junior',
     role: 'Chief Strategy Officer',
     initials: 'ND',
     photo: '/images/team/nixon-duah.jpeg',
     credentials: ['MSc', 'MBA', 'PMP', 'CFE', 'CPhT', 'RPhT'],
     bio: [
-      'Nixon serves as the Chief Strategy Officer of Sound Fire & Safety LLC, guiding the company’s long-term strategic direction and organizational development. He leads the planning, analysis, and growth initiatives that strengthen the company’s position within Washington’s fire-safety industry.',
-      'With a strong background in strategic management and operational alignment, Nixon ensures that Sound Fire & Safety’s goals, services, and compliance standards remain forward-focused and competitive. His work includes evaluating market needs, shaping service expansion, and supporting the company’s commitment to reliable, code-compliant fire and life-safety solutions.',
-      'Nixon’s strategic leadership helps the company maintain clarity, consistency, and long-term stability—ensuring Sound Fire & Safety continues to grow as a trusted partner for homeowners, businesses, and facility managers across Washington.',
+      'Kwaku serves as the Chief Strategy Officer of Sound Fire & Safety LLC, guiding the company’s long-term strategic direction and organizational development. He leads the planning, analysis, and growth initiatives that strengthen the company’s position within Washington’s fire-safety industry.',
+      'With a strong background in strategic management and operational alignment, Kwaku ensures that Sound Fire & Safety’s goals, services, and compliance standards remain forward-focused and competitive. His work includes evaluating market needs, shaping service expansion, and supporting the company’s commitment to reliable, code-compliant fire and life-safety solutions.',
+      'Kwaku’s strategic leadership helps the company maintain clarity, consistency, and long-term stability—ensuring Sound Fire & Safety continues to grow as a trusted partner for homeowners, businesses, and facility managers across Washington.',
     ],
   },
   {
